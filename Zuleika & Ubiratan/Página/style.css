@@ -1,0 +1,56 @@
+*{
+    background-color: black;
+    color:burlywood
+
+}
+
+main{
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+figure > a> img{
+    width: 100%;
+    height: 250px;
+    margin: 1.5%
+}
+
+.Pre-casamento{
+    flex-grow: 1;
+}
+
+.DiaNoiva{
+    flex-grow: 1;
+}
+
+.Cerimonia{
+    flex-grow: 1;
+}
+
+.Cerimonia > figure > img {
+    width: 100%;
+    height: 250px;
+    margin: 1.5%
+}
+
+.Festa{
+    flex-grow: 1;
+}
+
+.LuaMel{
+    flex-grow: 1;
+}
+
+h2{
+    text-align: center;
+}
